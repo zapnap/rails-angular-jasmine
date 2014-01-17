@@ -13,3 +13,9 @@ Run the combined test suite via Guard:
 
     bundle
     bundle exec guard
+
+## Credits
+
+Developed by [Nick Plante](http://nickplante.com). Mad props to
+[Mark Bates](http://markbates.com) for helping me think through and iterate on
+this.
