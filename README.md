@@ -1,4 +1,4 @@
-# Rails + Angular + Jasmine Example App
+# Rails + Angular + Jasmine Example
 
 Illustrates how to setup and organize a vanilla Rails backend application to
 leverage Angular.js with a full Jasmine test suite.
