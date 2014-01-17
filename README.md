@@ -9,6 +9,8 @@ Browse the Coffeescript example code in `app/assets/javascripts/app` and
 compare with the specs found in `spec/javascripts`. Pay particular attention
 to the spec helper setup in `spec/javascripts/spec_helper.coffee`.
 
+Read more and comment on the [blog post](http://blog.zerosum.org/2014/01/17/rails-angular-jasmine.html)
+
 ## Run the Test Suite
 
 Run the combined test suite via Guard:
