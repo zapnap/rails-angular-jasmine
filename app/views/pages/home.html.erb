@@ -1,0 +1,8 @@
+<div ng-controller="TasksController">
+  <ul>
+    <li ng-repeat="task in tasks">
+      <div ng-model="task">{{ task.name }}</div>
+    </li>
+    <li><input type="text" ng-model="task.name"/><button ng-click="addTask(task)">Add</button></li>
+  </ul>
+</div>

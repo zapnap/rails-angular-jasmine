@@ -11,6 +11,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'angularjs-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
+gem 'inherited_resources'
 
 group :development, :test do
   gem 'awesome_print'
