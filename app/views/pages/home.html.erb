@@ -1,8 +1,22 @@
 <div ng-controller="TasksController">
   <ul>
     <li ng-repeat="task in tasks">
-      <div ng-model="task">{{ task.name }}</div>
+      <div ng-model="task">
+        <input type="checkbox" ng-checked="task.completed_at" ng-click="completeTask(task)" ng-disabled="task.completed_at"/>
+        <span class="{{ task.completed_at ? 'complete' : ''}}">{{ task.name }}</span>
+      </div>
     </li>
-    <li><input type="text" ng-model="task.name"/><button ng-click="addTask(task)">Add</button></li>
+    <li>
+      <form ng-model="task" ng-submit="addTask(task)">
+        <input type="text" ng-model="task.name"/>
+        <button>Add</button>
+      </form>
+    </li>
   </ul>
 </div>
+
+<style>
+  .complete {
+    text-decoration: line-through;
+  }
+</style>
